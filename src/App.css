@@ -1,0 +1,26 @@
+@font-face{
+    font-family: 'SharpGrotesk';
+    src:url('../public/fonts/SharpGrotesk-SemiBold20.otf')
+}
+
+@font-face {
+    font-family: 'Montilla';
+    src: url("../public/fonts/Montilla-DEMO-BF66e75c3cae983.otf");
+}
+
+
+
+*{
+    font-family: 'Montilla';
+    /* background-color: antiquewhite; */
+    
+}
+/* @media(max-width:300px){
+
+
+   
+} */
+
+#theme1:hover,#theme:hover{
+      transform: scale(1.1); 
+}
