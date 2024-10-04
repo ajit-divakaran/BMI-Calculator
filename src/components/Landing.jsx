@@ -93,7 +93,7 @@ const Landing = (props) => {
             
             <button id="theme" className="d-md-none d-block text-align-right" style={{width:'5rem',padding:"10px",border:`1px solid black`,borderRadius:'5px',marginTop:"8px",transition:"transform 0.35s ease"}} onClick={()=>{changeTheme();setThemeText((e)=>e=="Off"?"On":"Off")}}>
                   
-                  <img src="../../public/images/dark-mode.png" width={"23px"} height={"23px"}></img>
+                  <img src="https://cdn-icons-png.flaticon.com/128/11881/11881185.png" width={"23px"} height={"23px"}></img>
             </button>
             </Tooltip>
             <h1 style={{ color: `${hcolor}`, fontFamily: "SharpGrotesk" }}>
