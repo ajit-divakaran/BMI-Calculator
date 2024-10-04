@@ -199,7 +199,7 @@ const Landing = (props) => {
             </button>
           </div>
           <div className="col-1 col-md-2">
-          <button id="theme1" className="d-none d-md-block" style={{width:'13vw',marginRight:"10rem",padding:"10px",border:'1px solid black',borderRadius:'5px',marginTop:"8px",fontSize:'1.3vw'}} onClick={()=>{changeTheme();setThemeText((e)=>e=="Off"?"On":"Off")}}>{`Dark Mode: ${themeText}`}</button>
+          <button id="theme1" className="d-none d-md-block" style={{width:'13vw',marginRight:"10rem",padding:"10px",border:'1px solid black',borderRadius:'5px',marginTop:"8px",fontSize:'1.3vw',transition:"transform 0.35s ease"}} onClick={()=>{changeTheme();setThemeText((e)=>e=="Off"?"On":"Off")}}>{`Dark Mode: ${themeText}`}</button>
 
           </div>
         </div>
